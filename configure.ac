@@ -1,7 +1,7 @@
 dnl#                                               -*- Autoconf -*-
 dnl# Process this file with autoconf to produce a configure script.
 
-AC_PREREQ([2.69])
+AC_PREREQ([2.65])
 AC_INIT([apple-gdb],[1824],[jmolenda@apple.com])
 AC_CONFIG_SRCDIR([template.h])
 AC_CONFIG_HEADERS([config.h])
