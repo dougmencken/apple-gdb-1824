@@ -52,6 +52,7 @@
  #  warning "defs.h expects <stdio.h> to be included."
 # endif /* __GNUC__ && !__STRICT_ANSI__ */
 #endif /* HAVE_STDIO_H */
+
 #if defined(HAVE_ERRNO_H) || defined(STDC_HEADERS) || defined(__STDC__) || defined(__GNUC__) || defined(__APPLE__)
 # include <errno.h> /* System call error return status.  */
 #else
@@ -59,6 +60,7 @@
  #  warning "defs.h expects <errno.h> to be included."
 # endif /* __GNUC__ && !__STRICT_ANSI__ */
 #endif /* HAVE_ERRNO_H */
+
 #ifdef HAVE_LIMITS_H
 # include <limits.h>
 #else
@@ -66,6 +68,7 @@
  #  warning "defs.h expects <limits.h> to be included."
 # endif /* __GNUC__ && !__STRICT_ANSI__ */
 #endif /* HAVE_LIMITS_H */
+
 #ifdef HAVE_STRING_H
 # include <string.h>
 #else
@@ -77,6 +80,7 @@
 #  endif /* __GNUC__ && !__STRICT_ANSI__ */
 # endif /* HAVE_STRINGS_H */
 #endif /* HAVE_STRING_H */
+
 #if defined(HAVE_REGEX_H) || defined(__GNUC__)
 # include <regex.h>
 #else
